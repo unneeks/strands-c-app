@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "harnessagent"
+version = "0.1.0"
+description = "Strands harness coding agent served by AgentCore Runtime / agentcore dev"
+requires-python = ">=3.10"
+dependencies = [
+    "aws-opentelemetry-distro ~= 0.18.0",
+    "bedrock-agentcore >= 1.18.1",
+    "botocore[crt] >= 1.35.0",
+    "strands-harness >= 0.3.1",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]

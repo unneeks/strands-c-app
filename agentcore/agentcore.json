@@ -16,6 +16,15 @@
       "runtimeVersion": "PYTHON_3_14",
       "networkMode": "PUBLIC",
       "protocol": "HTTP"
+    },
+    {
+      "name": "harnessagent",
+      "build": "CodeZip",
+      "entrypoint": "main.py",
+      "codeLocation": "app/harnessagent/",
+      "runtimeVersion": "PYTHON_3_12",
+      "networkMode": "PUBLIC",
+      "protocol": "HTTP"
     }
   ],
   "memories": [

@@ -39,3 +39,5 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+# coding agent default workspace
+workspace/
